@@ -21,7 +21,7 @@ function App() {
         </div>
 
         {/* Main View */}
-        {/* <div className='flex items-center gap-4 w-full'>
+        <div className='flex items-center gap-4 w-full'>
           <input type="text" placeholder='search your task' className='w-full rounded-full font-medium text-[#9E9E9E] bg-white shadow-md shadow-neutral-300 border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-[#4285F4] py-2 px-6' />
           <FaSearch className='text-[#EA4335] text-3xl md:text-4xl' />
         </div>
@@ -109,10 +109,10 @@ function App() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* AddTodo View */}
-        <div className="bg-white p-6 rounded-2xl shadow-md shadow-neutral-400 flex flex-col gap-4">
+        {/* <div className="bg-white p-6 rounded-2xl shadow-md shadow-neutral-400 flex flex-col gap-4">
           <h2 className="text-xl font-semibold text-[#4285F4]">Add New Todo</h2>
 
           <div className="flex flex-col gap-1">
@@ -142,7 +142,7 @@ function App() {
               Tambah Todo
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* PreviewTodo */}
         {/* <div className="bg-white p-6 rounded-2xl shadow-md shadow-neutral-400 flex flex-col gap-4">
