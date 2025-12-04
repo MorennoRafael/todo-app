@@ -27,13 +27,6 @@ export default function PreviewTodo() {
                     </div>
 
                     <div className="flex flex-col gap-1">
-                        <label className="text-sm font-medium text-neutral-600">Deadline</label>
-                        <div className="border border-neutral-300 rounded-xl p-3 bg-neutral-100">
-                            22 November 2025
-                        </div>
-                    </div>
-
-                    <div className="flex flex-col gap-1">
                         <label className="text-sm font-medium text-neutral-600">Status</label>
 
                         <div className="flex items-center gap-2">

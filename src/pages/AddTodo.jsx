@@ -28,14 +28,6 @@ export default function AddTodo() {
                         ></textarea>
                     </div>
 
-                    <div className="flex flex-col gap-1">
-                        <label className="text-sm font-medium">Deadline</label>
-                        <input
-                            type="date"
-                            className="border border-neutral-300 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-[#4285F4]"
-                        />
-                    </div>
-
                     <div className="flex justify-between mt-2">
                         <button className="px-4 py-2 rounded-xl bg-[#EA4335] text-white font-medium hover:opacity-90">
                             Kembali

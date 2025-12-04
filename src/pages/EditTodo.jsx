@@ -29,14 +29,6 @@ export default function EditTodo() {
                     </div>
 
                     <div className="flex flex-col gap-1">
-                        <label className="text-sm font-medium">Deadline</label>
-                        <input
-                            type="date"
-                            className="border border-neutral-300 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-[#4285F4]"
-                        />
-                    </div>
-
-                    <div className="flex flex-col gap-1">
                         <label className="text-sm font-medium">Status</label>
                         <select className="border border-neutral-300 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-[#4285F4]">
                             <option value="pending">🟡 Pending</option>
