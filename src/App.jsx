@@ -67,13 +67,8 @@ function App() {
             </div>
 
             <div className='flex flex-col gap-2 '>
-              <div className='flex gap-2'>
-                <div className='rounded-full text-white font-medium px-4 bg-[#34A853]'>
-                  <p className='text-xs md:text-base'>Done</p>
-                </div>
-                <div className='rounded-full text-white font-medium px-4 bg-[#34A853]'>
-                  <p className='text-xs md:text-base'>20/11/2025</p>
-                </div>
+              <div className='w-fit rounded-full text-white font-medium px-4 bg-[#34A853]'>
+                <p className='text-xs md:text-base'>Done</p>
               </div>
               <div className='flex items-center justify-between py-4 px-6 rounded-2xl bg-white border border-[#E0E0E0] shadow-md shadow-neutral-300'>
                 <p className='md:max-w-lg lg:max-w-2xl text-sm md:text-base truncate'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur est accusamus.</p>
@@ -86,13 +81,8 @@ function App() {
             </div>
 
             <div className='flex flex-col gap-2 '>
-              <div className='flex gap-2'>
-                <div className='rounded-full text-white font-medium px-4 bg-[#FBBC05]'>
-                  <p className='text-xs md:text-base'>Pending</p>
-                </div>
-                <div className='rounded-full text-white font-medium px-4 bg-[#EA4335]'>
-                  <p className='text-xs md:text-base'>21/11/2025</p>
-                </div>
+              <div className='w-fit rounded-full text-white font-medium px-4 bg-[#FBBC05]'>
+                <p className='text-xs md:text-base'>Pending</p>
               </div>
               <div className='flex items-center justify-between py-4 px-6 rounded-2xl bg-white border border-[#E0E0E0] shadow-md shadow-neutral-300'>
                 <p className='md:max-w-lg lg:max-w-2xl text-sm md:text-base truncate'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam tenetur est accusamus.</p>
@@ -105,7 +95,6 @@ function App() {
             </div>
           </div>
         </div>
-
 
       </div>
 
