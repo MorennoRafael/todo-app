@@ -1,20 +1,15 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 
 
 export default function PreviewTodo() {
     return (
         <div className='bg-[#F5F5F5]'>
-            <nav className='px-4 md:px-8 lg:px-18 py-6'>
-                <h1 className='font-bold text-2xl text-[#EA4335]'>TodoApp</h1>
-            </nav>
+            <Navbar />
 
             <div className='flex flex-col gap-6 px-4 md:px-12 lg:px-58'>
-                <div className='relative w-full h-58 md:h-72'>
-                    <div className="absolute left-4 bottom-4">
-                        <h1 className="text-lg md:text-2xl text-white font-bold">14:06</h1>
-                        <h1 className="text-lg md:text-2xl text-white font-bold">Bandung</h1>
-                    </div>
-                    <img src="img/pagi.png" alt="gambar-pagi" className='w-full h-full object-center rounded-2xl shadow-md shadow-neutral-500' />
-                </div>
+                <Header />
 
                 <div className="bg-white p-6 rounded-2xl shadow-md shadow-neutral-400 flex flex-col gap-4">
                     <h2 className="text-xl font-semibold text-[#4285F4]">Detail Todo</h2>
@@ -55,18 +50,7 @@ export default function PreviewTodo() {
                 </div>
             </div>
 
-            <footer className="flex justify-center py-4">
-                <p className="text-sm text-gray-600 flex items-center gap-2">
-                    by <span className="font-semibold">morenno.rafael</span>
-
-                    <span className="flex items-center gap-1">
-                        <span className="w-2 h-2 rounded-full bg-[#4285F4]"></span>
-                        <span className="w-2 h-2 rounded-full bg-[#EA4335]"></span>
-                        <span className="w-2 h-2 rounded-full bg-[#FBBC05]"></span>
-                        <span className="w-2 h-2 rounded-full bg-[#34A853]"></span>
-                    </span>
-                </p>
-            </footer>
+            <Footer />
         </div>
     )
 }
