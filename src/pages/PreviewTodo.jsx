@@ -28,12 +28,12 @@ export default function PreviewTodo() {
                 </div>
 
                 <div className="flex justify-between pt-2">
-                    <BackButton />
+                    <BackButton href="/"/>
 
                     <div className="flex gap-2">
-                        <ButtonForm color="#FBBC05" icon={<FaEdit size={18} />} text="edit"/>
+                        <ButtonForm color="#FBBC05" icon={<FaEdit size={18} />} text="Edit" href="/edit" />
 
-                        <ButtonForm color="#EA4335" icon={<FaTrash size={16} />} text="Hapus"/>
+                        <ButtonForm color="#EA4335" icon={<FaTrash size={16} />} text="Hapus" href="/" />
                     </div>
                 </div>
             </div>

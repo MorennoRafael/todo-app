@@ -27,9 +27,9 @@ export default function EditTodo() {
                 </div>
 
                 <div className="flex justify-between mt-2">
-                    <BackButton />
+                    <BackButton href="/"/>
 
-                    <ButtonForm color="#FBBC05" icon={<FaEdit size={18} />} text="Simpan Perubahan" />
+                    <ButtonForm color="#FBBC05" icon={<FaEdit size={18} />} text="Simpan Perubahan" href="/"/>
                 </div>
             </div>
         </MainLayout>

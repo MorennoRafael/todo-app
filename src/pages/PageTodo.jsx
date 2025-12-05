@@ -1,19 +1,21 @@
 import { useState } from 'react'
-import './App.css'
+import '../App.css'
 import { FaCirclePlus } from "react-icons/fa6";
 import { FaSearch } from "react-icons/fa";
-import PreviewButton from './components/button/PreviewButton';
-import EditButton from './components/button/EditButton';
-import DeleteButton from './components/button/DeleteButton';
-import FilterButton from './components/button/FilterButton';
+import PreviewButton from '../components/button/PreviewButton';
+import EditButton from '../components/button/EditButton';
+import DeleteButton from '../components/button/DeleteButton';
+import FilterButton from '../components/button/FilterButton';
+import MainLayout from '../layouts/MainLayout';
+import Status from '../components/Status.jsx'
 
 export default function PageTodo() {
     const [filter, setFilter] = useState("all");
 
     const dummyTodos = [
-        { id: 1, text: "Belajar React useEffect dan routing", status: "pending" },
-        { id: 2, text: "Mengerjakan UI Todo App sampai selesai", status: "done" },
-        { id: 3, text: "Membuat integrasi API menggunakan fetch", status: "pending" }
+        { id: 1, text: "Belajar React useEffect dan routing", status: "Pending" },
+        { id: 2, text: "Mengerjakan UI Todo App sampai selesai", status: "Done" },
+        { id: 3, text: "Membuat integrasi API menggunakan fetch", status: "Pending" }
     ];
 
     const filteredTodos =
@@ -40,19 +42,19 @@ export default function PageTodo() {
                         <FilterButton
                             label="Pending"
                             color="#FBBC04"
-                            active={filter === "pending"}
+                            active={filter === "Pending"}
                             onClick={() => handleFilter("Pending")}
                         />
 
                         <FilterButton
                             label="Done"
                             color="#34A853"
-                            active={filter === "done"}
+                            active={filter === "Done"}
                             onClick={() => handleFilter("Done")}
                         />
                     </div>
+                    <a href="/add"><FaCirclePlus className="text-[#4285F4] text-3xl md:text-4xl cursor-pointer" href='/add' /></a>
 
-                    <FaCirclePlus className="text-[#4285F4] text-3xl md:text-4xl" />
                 </div>
 
                 <div className='flex flex-col gap-4 w-full'>

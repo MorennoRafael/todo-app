@@ -20,9 +20,9 @@ export default function AddTodo() {
                 </div>
 
                 <div className="flex justify-between mt-2">
-                    <BackButton />
+                    <BackButton href="/"/>
 
-                    <ButtonForm color="#34A853" icon={<FaCirclePlus size={18} />} text="tambah"/>
+                    <ButtonForm color="#34A853" icon={<FaCirclePlus size={18} />} text="Tambah" href="/"/>
                 </div>
             </div>
         </MainLayout>
