@@ -1,11 +1,6 @@
 {
   "todos": [
     {
-      "id": "8566",
-      "todo": "Sapu sapu",
-      "completed": false
-    },
-    {
       "todo": "asdasd",
       "completed": true,
       "id": "6a83"
