@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<PageTodo />} />
         <Route path="/add" element={<AddTodo />} />
-        <Route path="/edit" element={<EditTodo />} />
-        <Route path="/todo" element={<PreviewTodo />} />
+        <Route path="/edit/:id" element={<EditTodo />} />
+        <Route path="/todo/:id" element={<PreviewTodo />} />
       </Routes>
     </BrowserRouter>
   );
